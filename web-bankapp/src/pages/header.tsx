@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <>
-      <header className="py-3 mb-4 border-bottom">
+      <div className="py-3 mb-4 border-bottom">
         <div className="container d-flex flex-wrap justify-content-center">
           <a
             href="/"
@@ -29,7 +29,7 @@ export default function Header() {
             />
           </form>
         </div>
-      </header>
+      </div>
     </>
   );
 }

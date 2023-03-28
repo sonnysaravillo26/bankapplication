@@ -16,7 +16,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <>
       <Navbar></Navbar>
       <Header></Header>
-      <div className={layoutstyles.contentbody}>{children}</div>
+      <main className={layoutstyles.contentbody}>{children}</main>
       <Footer></Footer>
     </>
   );

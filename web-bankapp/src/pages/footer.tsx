@@ -1,31 +1,30 @@
 export default function Footer() {
   return (
     <>
-      <div className="container"> 
-        <footer className="row row-cols-5 py-5 my-5 border-top">
+      <div className="container">
+        <div className="row row-cols-5 py-5 my-5 border-top">
           <div className="col">
             <a
               href="/"
               className="d-flex align-items-center mb-3 link-dark text-decoration-none"
-            >
-              <a
-                href="/"
-                className="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none"
-              >
-                <img
-                  src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg"
-                  alt="Logo"
-                  width="34"
-                  height="28"
-                  className="d-inline-block align-text-top"
-                />
-                <small>
-                  <b>
-                    <span className="fs-6">ANK</span>
-                  </b>
-                </small>
-              </a>
-            </a>
+            />
+            <a
+              href="/"
+              className="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none"
+            />
+            <img
+              src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg"
+              alt="Logo"
+              width="34"
+              height="28"
+              className="d-inline-block align-text-top"
+            />
+            <small>
+              <b>
+                <span className="fs-6">ANK</span>
+              </b>
+            </small>
+
             <p className="text-muted">&copy; 2023 / Powered by: sosaravillo </p>
           </div>
 
@@ -93,7 +92,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-        </footer>
+        </div>
       </div>
     </>
   );
