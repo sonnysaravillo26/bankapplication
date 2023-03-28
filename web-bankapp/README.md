@@ -11,7 +11,9 @@ Web application for Bank Implementation
 - refA `https://tailwindcss.com/docs/guides/nextjs`
 - refB `https://tailwind-elements.com/`
 - refC `https://blog.logrocket.com/handling-bootstrap-integration-next-js/`
-- refD `https://getbootstrap.com/docs/5.2/examples/heroes/`, Form login Reference
+- refD `https://getbootstrap.com/docs/5.2/examples/heroes/`, For login Reference
+- refE `https://getbootstrap.com/docs/5.0/examples/sidebars/`, For Left Navigation Bar 
+- refF `https://getbootstrap.com/docs/5.0/examples/headers/#`, For Header 
 
 ## Resolve / Issues 
 - Unknown at rule @tailwindcss issue / from VS install package `PostCSS Language Suppor`
