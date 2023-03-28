@@ -6,6 +6,8 @@ Web application for Bank Implementation
     - removed `npm uninstall tailwindcss`, removing tailwindcss
 - Tailwind Element check refB, installing `npm install tw-elements` or `npm i --save-dev @types/tw-elements`
 - Installing Bootstrap refC, `npm install bootstrap`
+- installing Bootstrap icon, `npm i bootstrap-icons`
+- Bootstrap implementation using CDN `https://medium.com/frontendweb/how-to-use-bootstrap-5-with-cdn-in-nextjs-e9b9c8fd35cd`
 
 ## Ref
 - refA `https://tailwindcss.com/docs/guides/nextjs`

@@ -23,11 +23,13 @@ export default function Login() {
                             <div className="checkbox mb-3">
                                 <a href="#" className="btn btn-link" role="button">Forgot password?</a>
                             </div>
-                            <button className="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+                            <button className="w-100 btn btn-lg btn-primary" type="submit">Login</button> 
 
                             <hr className="my-4" />
                             <small className="text-muted">By clicking Login, you agree to the terms of use. </small>
-                            <a href="./" className="btn-link" role="button">Back Main</a>
+                            <a href="./" className="btn-link" role="button">Back Start</a>
+                            <br/>
+                            <a href="/layout" className="btn-link" role="button">Main Page</a>
                         </form>
                     </div>
                 </div>
