@@ -1,7 +1,13 @@
 export default function ListOfLoans() {
   return (
     <>
-      <div>
+      <div className="container px-4 py-2">
+        {/* Page Headings */}
+        <div className="row py-2 mb-3 card">
+          <h3>Loan</h3>
+        </div>
+
+        {/* Page Body  */}
         <div className="col-md-12 mx-auto col-lg-12">
           <div className="p-4 p-md-5 border rounded-3 bg-light">
             <h4>LIST OF LOANS</h4>

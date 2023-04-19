@@ -4,8 +4,13 @@ export default function CreateNewCreditAccount() {
       {/* FORM FOR CREATING NEW CREDIT ACCOUNT  */}
       {/* Name, Date of birth, Mobile Number, 
             home Phone, Current Address, City, 
-            zip code, etc.  */} 
-      <div>
+            zip code, etc.  */}
+       <div className="container px-4 py-2">
+        {/* Page Headings */}
+        <div className="row py-2 mb-3 card">
+          <h3>Open Account</h3>
+        </div>
+
         <div className="col-md-12 mx-auto col-lg-12">
           <form className="p-4 p-md-5 border rounded-3 bg-light">
             <h4>APPLICANT NEW CREDIT ACCOUNT</h4>

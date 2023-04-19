@@ -106,3 +106,15 @@ a {
   }
 }
 
+/* Custome Styles  */
+.txtWhite {
+  color: white;
+}
+
+.bgNavbar {
+  background-color: rgb(61, 61, 61);
+} 
+
+.bg-header {
+  
+}
